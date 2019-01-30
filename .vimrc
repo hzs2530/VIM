@@ -63,4 +63,3 @@ let Tlist_WinWidth=30 " Set the window 40 cols wide.
 let Tlist_Use_SingleClick=1 "Go To Target By SingleClick
 let Tlist_Use_Right_Window=1 "在右侧显示
 map <silent> <F2> :TlistToggle<CR>   
-"end

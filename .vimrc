@@ -11,7 +11,7 @@ syntax  enable
 syntax on
 "set background=dark 
 "set nocompatible  
-colorscheme codeschool
+"colorscheme codeschool
 "colorscheme solarized
 "colorscheme darkblue
 "colorscheme evening

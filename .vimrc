@@ -48,7 +48,7 @@ nmap <leader>csi :cs find i <C-R>=expand("<cfile>")<CR><CR> :copen<CR><CR>
 
 set mouse=a
 
-let Tlist_Auto_Open=1 " Let the tag list open automatically
+"let Tlist_Auto_Open=1 " Let the tag list open automatically
 let Tlist_Auto_Update=1 " Update the tag list automatically
 let Tlist_Compact_Format=1 " Hide help menu
 let Tlist_Ctags_Cmd='ctags' " Location of ctags
@@ -62,8 +62,11 @@ let Tlist_WinWidth=30 " Set the window 40 cols wide.
 "let Tlist_Close_On_Select=1 " Close the list when a item is selected
 let Tlist_Use_SingleClick=1 "Go To Target By SingleClick
 let Tlist_Use_Right_Window=1 "在右侧显示
-map <silent> <F2> :TlistToggle<CR>   
+"map <silent> <F2> :TlistToggle<CR>   
+let g:winManagerWidth=30
+let g:winManagerWindowLayout='FileExplorer|TagList'
 
+map <F2> :WMToggle <CR>
 
 
 set nocompatible              " be iMproved, required
